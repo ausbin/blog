@@ -26,6 +26,12 @@
           {{ partial "post.html" . }}
         {{ end }}
       </div>
+      <footer>
+        © {{ .Now.Year }} austin adams
+        <a href="{{ .Site.RSSLink }}">
+          <img id="rsslink" alt="RSS Feed Link" src="{{ .Site.BaseURL }}img/rss.png" />
+        </a>
+      </footer>
     </div>
   </body>
 </html>

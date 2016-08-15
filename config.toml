@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "austin's lousy blog"
 # toolbag/nginx handle 404s for us
 disable404 = true
-disableRSS = true
 disableSitemap = true
 
 [params]

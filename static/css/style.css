@@ -45,6 +45,15 @@ header h1#title a:active {
   text-decoration: underline;
 }
 
+footer img#rsslink {
+    float: right;
+}
+
+footer {
+    color: gray;
+    font-size: 12px;
+}
+
 /* Homepage */
 
 ul#postlist {
